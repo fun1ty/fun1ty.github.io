@@ -1,0 +1,34 @@
+@use 'variable' as v;
+
+@mixin ellipsis($line: 1) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    @if $line == 1 {
+        display: block;
+        white-space: nowrap;
+        word-wrap: normal;
+    } @else {
+        display: -webkit-box;
+        -webkit-line-clamp: $line;
+        -webkit-box-orient: vertical;
+        word-wrap: break-word;
+    }
+}
+
+@mixin flex($js: center, $ai: center) {
+    display: flex;
+    justify-content: $js;
+    align-items: $ai;
+}
+
+@mixin mobile {
+    @media (width < v.$bp) {
+        @content;
+    }
+}
+
+@mixin pc {
+    @media (width >= v.$bp) {
+        @content;
+    }
+}

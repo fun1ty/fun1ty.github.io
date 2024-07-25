@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>디자이너 포트폴리오</title>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <link rel="stylesheet" href="./css/style.css" />
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <script src="js/common.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header" id="header">
+                <div class="header_top">
+                    <div class="inner">
+                        <h1 class="logo">
+                            <a href="#header"><span class="screen_out">나다의 포트폴리오</span></a>
+                        </h1>
+                        <button type="button" class="btn_open"><span class="screen_out">메뉴열기</span></button>
+                        <nav class="gnb">
+                            <ul>
+                                <li><a href="#introduce">Introduce</a></li>
+                                <li><a href="#gallery">Gallery</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <button type="button" class="btn_close"><span class="screen_out">메뉴닫기</span></button>
+                    </div>
+                </div>
+                <p class="header_title">
+                    <span>Creative Designer</span> <br />
+                    dddddd protfolio
+                </p>
+            </header>
+            <main class="main">
+                <section class="introduce" id="introduce">
+                    <div class="inner">
+                        <h2 class="title">Introduce</h2>
+                        <div class="cont">
+                            <div>
+                                <h3>About Me</h3>
+                                <div class="profile">
+                                    <div class="img_wrap">
+                                        <img src="./img/profile.jpg" alt="" />
+                                    </div>
+                                    <p><strong>장지은</strong> UXUI Designer</p>
+                                </div>
+                                <p class="profile_Text">
+                                    꽃 간에 투명하되 바이며, 얼마나 살았으며, 들어 같은 곳으로 봄바람이다. 피고, 뜨고,
+                                    이상, 새 싸인 석가는 아니다. 앞이 같으며, 피어나는 보내는 인도하겠다는 이것이다.
+                                    때에, 만물은 천지는 길을 뼈 품고 용감하고 노래하며 날카로우나 이것이다. 속잎나고,
+                                    인생에 풍부하게 이상이 때까지 목숨이 방황하여도, 그들에게 그리하였는가? 얼음에
+                                    그림자는 얼마나 이는 무엇을 위하여서. 하여도 커다란 원대하고, 못하다 피는 새 꽃이
+                                    청춘은 위하여서. 보이는 목숨이 앞이 피는 무한한 살 피다. 위하여서 않는 황금시대의
+                                    천하를 그것은 인생의 때까지 할지라도 있는 것이다. 그들의 생생하며, 듣기만 듣는다.
+                                    구하지 더운지라 방황하였으며, 것이다.
+                                </p>
+                            </div>
+                            <div>
+                                <h3>Experience</h3>
+                                <ol class="Experience_list">
+                                    <li>
+                                        <strong>Adobe</strong>
+                                        <p>
+                                            트고, 그것은 생의 곳이 열락의 부패뿐이다. 많이 대중을 위하여, 가치를
+                                            사막이다. 오직 밥을 오아이스도 있는가? 가장 내려온 속에 인류의 보내는
+                                            소금이라 끝까지 위하여 황금시대를 교향악이다. 인간의 품었기 꽃 역사를
+                                            모래뿐일 불어 천자만홍이 끓는다. 이 과실이 작고 이상의 얼음에 기쁘며, 꾸며
+                                            봄바람이다. 튼튼하며, 곳으로 못하다 거선의 예수는 이것이다.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <strong>Story</strong>
+                                        <p>
+                                            트고, 그것은 생의 곳이 열락의 부패뿐이다. 많이 대중을 위하여, 가치를
+                                            사막이다. 오직 밥을 오아이스도 있는가? 가장 내려온 속에 인류의 보내는
+                                            소금이라 끝까지 위하여 황금시대를 교향악이다. 인간의 품었기 꽃 역사를
+                                            모래뿐일 불어 천자만홍이 끓는다. 이 과실이 작고 이상의 얼음에 기쁘며, 꾸며
+                                            봄바람이다. 튼튼하며, 곳으로 못하다 거선의 예수는 이것이다.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <strong>i2max</strong>
+                                        <p>
+                                            트고, 그것은 생의 곳이 열락의 부패뿐이다. 많이 대중을 위하여, 가치를
+                                            사막이다. 오직 밥을 오아이스도 있는가? 가장 내려온 속에 인류의 보내는
+                                            소금이라 끝까지 위하여 황금시대를 교향악이다. 인간의 품었기 꽃 역사를
+                                            모래뿐일 불어 천자만홍이 끓는다. 이 과실이 작고 이상의 얼음에 기쁘며, 꾸며
+                                            봄바람이다. 튼튼하며, 곳으로 못하다 거선의 예수는 이것이다.
+                                        </p>
+                                    </li>
+                                </ol>
+                            </div>
+                            <div>
+                                <h3>Skills</h3>
+                                <ul class="skill_list">
+                                    <li>
+                                        <strong>UX/UI Design</strong>
+                                        <div class="bar">
+                                            <div class="gauge" style="width: 90%">
+                                                <span class="screen_out">90%</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <strong>HTML/CSS</strong>
+                                        <div class="bar">
+                                            <div class="gauge" style="width: 80%">
+                                                <span class="screen_out">80%</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <strong>Web Accessibility</strong>
+                                        <div class="bar">
+                                            <div class="gauge" style="width: 70%">
+                                                <span class="screen_out">70%</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <strong>Javascript/Lib</strong>
+                                        <div class="bar">
+                                            <div class="gauge" style="width: 60%">
+                                                <span class="screen_out">60%</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="gallery" id="gallery">
+                    <div class="inner">
+                        <h2 class="title">Gallery</h2>
+                        <div class="cont">
+                            <div class="swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <figure>
+                                            <img src="./img/portfolio01.jpg" alt="" />
+                                            <figcaption>
+                                                UX/UI Design <span>responsive web / Asseccbility</span>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <figure>
+                                            <img src="./img/portfolio02.jpg" alt="" />
+                                            <figcaption>
+                                                UX/UI Design <span>responsive web / Asseccbility</span>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <figure>
+                                            <img src="./img/portfolio03.jpg" alt="" />
+                                            <figcaption>
+                                                UX/UI Design <span>responsive web / Asseccbility</span>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <figure>
+                                            <img src="./img/portfolio03.jpg" alt="" />
+                                            <figcaption>
+                                                UX/UI Design <span>responsive web / Asseccbility</span>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="portfolio" id="portfolio">
+                    <div class="inner">
+                        <h2 class="title">Portfolio</h2>
+                        <ul class="portfolio_list">
+                            <!-- <li>
+                                <a href="">
+                                    <div class="txt">
+                                        <strong>포트폴리오1</strong>
+                                        <p>#반응형웹 #2주#2주#2주#2주#2주#2주#2주#2주#2주#2주#2주#2주</p>
+                                    </div>
+                                    <img src="./img/portfolio01.jpg" alt=""
+                                /></a>
+                            </li> -->
+                        </ul>
+                    </div>
+                </section>
+                <section class="contact" id="contact">
+                    <div class="inner">
+                        <h2 class="title">Contact</h2>
+                        <div class="cont">
+                            <form action="" id="myForm">
+                                <div class="input_item">
+                                    <label for="name">이름</label>
+                                    <input type="text" id="name" name="name" placeholder="이름을 입력해주세욘" />
+                                </div>
+                                <div class="input_item">
+                                    <label for="tel">전화번호</label>
+                                    <input type="text" id="tel" name="tel" placeholder="전화번호를 입력해주세욘" />
+                                </div>
+                                <div class="input_item">
+                                    <label for="email">이메일</label>
+                                    <input type="text" id="email" name="email" placeholder="이메일을 입력해주세욘" />
+                                </div>
+                                <div class="ta_wrap">
+                                    <label for="message">내용</label>
+                                    <textarea
+                                        name="message"
+                                        id="message"
+                                        placeholder="메세지를 입력해주세요"
+                                    ></textarea>
+                                </div>
+                                <button type="submit">보내기</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">© 2022 Nada Copyright All Rights Reserved.</footer>
+        </div>
+        <!--팝업 -->
+        <div class="portfolio_pop">
+            <div class="dim"></div>
+            <div class="content">
+                <h1>포폴 제목</h1>
+                <p>설명하는 내용</p>
+                <div class="img_wrap"></div>
+                <!-- <img src="./img/portfolio01.jpg" alt="" /> -->
+                <button>닫기</button>
+            </div>
+        </div>
+    </body>
+</html>

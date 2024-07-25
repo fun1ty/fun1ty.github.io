@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+body,
+input,
+textarea,
+select,
+button,
+table {
+    font-family: 'Lato', 'Noto Sans KR';
+}
+
+/*font-family: 영문서체, 한글서체 순
+input,textarea,select,button,table 폰트 설정을 상속받지 않아서 따로 써줘야함
+*/
+
+.screen_out {
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}
+
+body {
+    min-width: 320px;
+}
+
+.non_scroll {
+    overflow: hidden;
+}
